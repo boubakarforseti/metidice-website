@@ -1,0 +1,44 @@
+
+h1 { 
+    font: 4em roboto slab;
+}
+h2 { 
+    font: 3,5em roboto slab;
+}
+h3 { 
+    font: 3em roboto slab;
+}
+h4 { 
+    font: 2,5em roboto slab;
+}
+h5 { 
+    font: 2em roboto slab;
+}
+h6 { 
+    font: 1,5em roboto slab;
+}
+p { 
+    font: 1em roboto slab;
+}
+strong {
+    font: roboto slab;
+}
+input{
+    font: roboto slab;
+}
+form{
+    font: roboto slab;
+}
+label{
+    font: roboto slab;
+}
+h1{color: #9c0708;
+
+}
+h2{
+    color: #9c0708;
+}
+h3 {color: #9c0708;}
+p{
+    color: #0d0529b4;
+} 
