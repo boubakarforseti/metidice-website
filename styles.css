@@ -1,4 +1,3 @@
-
 h1 { 
     font: 4em roboto slab;
 }
@@ -32,13 +31,19 @@ form{
 label{
     font: roboto slab;
 }
-h1{color: #9c0708;
+h1{color: #00AF87;
 
 }
 h2{
-    color: #9c0708;
+    color: #00AF87;
 }
-h3 {color: #9c0708;}
+h3 {color: #00AF87;}
 p{
-    color: #0d0529b4;
+    color: #000000;
 } 
+p{
+    text-align: left;
+}
+nav header{
+    display: inline;
+}
