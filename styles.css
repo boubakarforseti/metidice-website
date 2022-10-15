@@ -1,3 +1,7 @@
+ul li {
+    display: inline;
+}
+
 h1 { 
     font: 4em roboto slab;
 }
@@ -43,7 +47,4 @@ p{
 } 
 p{
     text-align: left;
-}
-nav header{
-    display: inline;
 }
