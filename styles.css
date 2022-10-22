@@ -16,13 +16,29 @@ nav{
     justify-content: space-between;
     margin: 0 10%;
 }
-.voir-la-video {
-    background-color: azure;
-    font-size: 18px;
-    font-family: 'Roboto Slab', sans-serif;
-    font-weight: 900;
-    border-radius: 6px;
 
+.voir-la-video {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 14px;
+gap: 10px;
+
+position: absolute;
+width: 120px;
+height: 44px;
+right: 0px;
+top: 1px;
+font-family: 'Roboto Slab' ;
+font-size: 14px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.01em;
+text-align: left;
+
+background: #FFFFFF;
+border-radius: 6px;
 }
 
 h1 { 
@@ -69,6 +85,7 @@ h3 {color: #764ABC;
 h4 {
   color: #ffffff;
 }
+h5{}
 p{
-    color: #ffffff;
+    color: #000000;
 } 
