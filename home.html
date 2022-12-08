@@ -10,7 +10,7 @@
 <main>
         <!-- Corps du site internet de Metidice-->
         <header > 
-            <nav>
+            <nav class="menu-website">
             
                 <div class="logo">
                     <img class=logo src="logo1.svg" alt="Logo Metidice">
@@ -22,16 +22,20 @@
                         <a href="Contact.html">Contact</a>
                     </li>
                 </div class="bouton-de-connexion">
-                    <button type="Watch" class="Watch video"><p>Watch vidéo</p></button>
+                    <button type="Watch" class="Watch video"><p>Découvrir</p></button>
                     <button type="Login" class="Login"> Login</button>
                 </div>
-            
+        
             </nav>
-            <div class="titre-du-site-internet">   
+            <hr>
+            <div class="titre-du-site-internet"> 
+                <div class="metidice-search">
                 <h1> Metidice Search</h1>
-            </div>
-            <div class="Proposition-de-valeurs">
-                <h4 style="color:#ffffff ;">De l'avocat individuel aux plus grands cabinets d'affaires et directions juridiques de toutes tailles, vous êtes plus de 1000 à faire confiance à la technologie Metidice</h4>
+                </div>
+                 <div class="purpose-metidice">
+                <p style="color:#ffffff ;">De l'avocat individuel aux plus grands cabinets d'affaires et directions juridiques de toutes tailles, vous êtes plus de 1000 à faire confiance à la technologie Metidice</p>
+                <button type="Login" class="Watch demo"> Watch demo</button>
+                </div> 
             </div>
             </header>
 <!-- Explication de l'inteligence juridique-->
@@ -72,59 +76,92 @@
     </div>
 </div>
 <div class="Pricing-Saas">
-    <div class="Title-pricing">
-        <h3>Our pricing</h3>
-        <div class="Period">
-        <button>Yearly</button>
-        <button>Monthly</button>
+    <section class="pricing_section">
+        <div class="container">
+            <h3 class="center">Choisissez la bonne formule
+                <br>
+                Nos prix</h3>
+            <div class="row">
+                <div class="card">
+                    <span class="plan_title">PME / Avocat individuel</span>
+                    <!-- Pricing Starter -->
+                    <h3 class="price left"><span class="sign">frs</span>50.000<span>/Mois</span></h3>
+                    <p>Gagnez en pertinence et développez votre activité</p>
+                    <ul>
+                        <li>Recherche intelligente <i class="fas fa-check-circle"></i></li>
+                        <li>Espace de travail personnel<i class="fas fa-check-circle"></i></li>
+                        <li>Analyse du contentieux <i class="fas fa-check-circle"></i></li>
+                        <li class="not-include">Lecture enrichie <i class="fas fa-check-circle"></i></li>
+                        <li class="not-include">Support <i class="fas fa-check-circle"></i></li>
+                    </ul>
+                    <a href="https://google.com/" class="buy-btn">souscrire <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <span class="plan_title">Cabinet d’avocats / Entreprise</span>
+                    <!-- <img src="images/Hosting_perspective_matte.png" alt=""> -->
+                    <h3 class="price left"><span class="sign">frs</span> 200.000<span>/Mois</span></h3>
+                    <p>Couvrez l’ensemble des besoins de votre équipe, de la recherche à la stratégie juridique.</p>
+                    <ul>
+                        <li>Recherche intelligente <i class="fas fa-check-circle"></i></li>
+                        <li>Analyse du contentieux<i class="fas fa-check-circle"></i></li>
+                        <li>Espace de travail pour équipe <i class="fas fa-check-circle"></i></li>
+                        <li> Versionning <i class="fas fa-check-circle"></i></li>
+                        <li class="not-include">Support <i class="fas fa-check-circle"></i></li>
+                    </ul>
+                    <a href="https://gooble.com/" class="buy-btn">  Souscrire <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="card">
+                    <span class="plan_title">Offre Personnaliée</span>
+                    <!-- <img src="images/Hosting_perspective_matte.png" alt=""> -->
+                    <h3 class="price left"><span class="sign">frs</span> 500.000 <span>/ au moins</span></h3>
+                    <p>Transformez l’activité de votre département avec les KPI dans la prise de décision.</p>
+                    <ul>
+                        <li>Recherche intelligente <i class="fas fa-check-circle"></i></li>
+                        <li>Espace de travail pour équipe <i class="fas fa-check-circle"></i></li>
+                        <li>Nombre d'utilisateurs illimités <i class="fas fa-check-circle"></i></li>
+                        <li>Analyse du contentieux & Versonning <i class="fas fa-check-circle"></i></li>
+                        <li>Support & PM pour vous <i class="fas fa-check-circle"></i></li>
+                    </ul>
+                    <a href="https://google.com/" class="buy-btn">Souscrire <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="card-pricing">
-        <div class="starter">
-            <h4>starter</h4>
-            <p>free</p>
-            <p>Trial plan for starters</p>
-            <button>Get started</button>
-            <p>For small teams – 5 users</p>
-            <p>Community support</p>
-            <p>Individual data – 20GB</p>
-        </div>
-        <div class="Professional">
-            <h4>Professional</h4>
-            <p>$20  per editor/month</p>
-            <p>For users who want more</p>
-            <button>Get started</button>
-            <p>For small teams – 15 users</p>
-            <p>Individual support</p>
-            <p>Individual data – 60GB</p>
-        </div>
-        <div class="Organization">
-            <h4>Organization</h4>
-            <p>$50  per editor/month</p>
-            <p>The best solution for Pro</p>
-            <button>Get started</button>
-            <p>For big teams – unlimited</p>
-            <p>Individual support</p>
-            <p>Individual data – unlimited</p>
-            <p>Data history</p>
-        </div>
-    </div>
+    </section>
 </div>
 <div class="testamonials">
     <h3>What our customers say </h3>
     <div class="user-testamonials">
-        <div class="user-1">
-            <img src="Images/001_img_person_1.png" alt="Mame Adama GUEYE">
-            <h4>Mame Adama GUEYE</h4>
-            <h5>Managing Partner MAGP</h5>
-            <p>Metidice ous permet de réinventer nos métiers : l'outil permet d'accomplir en un temps record des tâches chronophages à faible valeur ajoutée ; à nous de nous concentrer sur des tâches qui constituent une plus-value pour le cabinet.</p>
+         <!-- div1 -->
+      <div class="div1 eachdiv">
+        <div class="userdetails">
+          <div class="imgbox">
+            <img src="Images/Maître-mame-adama-gueye-2.jpg" width="12%" alt="Me GUEYE">
+          </div>
+          <div class="detbox">
+            <p class="name">M Mame Adama GUEYE</p>
+            <p class="designation">Managing Partner MAGP</p>
+          </div>
         </div>
-        <div class="user-2">
-            <img src="Images/001_img_person_2.png" alt="Gibran Freiats">
-            <h4>Gibran FREITAS</h4>
-            <h5>Business developper DiliTrust</h5>
-            <p>Meditice me permet d'être plus transparent et plus convaincant en matière de presentation de mon produit DiliTrust mais aussi de presenter des situations concretes pour les clients de DiliTrust d’Afrique et du Moyen-Orient </p>
+        <div class="review">
+        <p>“ Metidice nous permet de réinventer nos métiers : l'outil permet d'accomplir en un temps record des tâches chronophages à faible valeur ajoutée ; à nous de nous concentrer sur des tâches qui constituent une plus-value pour le cabinet.”</p>
         </div>
+      </div>
+      <!--div 2-->
+        <!-- div1 -->
+        <div class="div1 eachdiv">
+            <div class="userdetails">
+              <div class="imgbox">
+                <img src="Images/Gibran Freitas.jpg" width="12%" alt=" Gibran fFREITAS">
+              </div>
+              <div class="detbox">
+                <p class="name">Gibran FREITAS</p>
+                <p class="designation">Business Developper DiliTrust</p>
+              </div>
+            </div>
+            <div class="review">
+            <p>“Meditice me permet d'être plus transparent et plus convaincant en matière de presentation de mon produit DiliTrust mais aussi de presenter des situations concretes pour les clients de DiliTrust d’Afrique et du Moyen-Orient. ”</p>
+            </div>
+          </div>
     </div>
 </div>
 <!-- logos Partners-->
@@ -144,46 +181,67 @@
 <!-- Contact information-->
 <div class="Contact-information">
     <div class="left-side-contact">
-    <h3>Contact information</h3>
-    <p>Fill up the form and our Team will get back to you with 25 hours.</p>
+    <h3>Contact 
+    information</h3>
+    <p>Remplissez le formulaire et notre équipe
+     <br>
+     vous répondra dans les 25 heures.</p>
     <p>support@metidice.legal</p>
     <p>+221 33 201-21-21</p>
     <p>Mermoz Pyrotechnique, Rue 81 x Rue 96</p>
     </div>
     <div class="right-side-contact">
-        <div class="right-side-contact-1">
-            <label for ="name">Nom:</label>
-            <input type="text" id="name" name="name" required text>
-            <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required enail>
+        <div class="contact">
+
+			<form id="contact-form">
+
+				<p>
+					<input type="text" name="name" placeholder="Prénom & Nom" id="name" required>
+				</p>
+
+				<p>
+					<input type="text" name="company" placeholder="Société" id="company">
+				</p>
+
+                <p>
+					<input type="email" name="email" placeholder="Email" id="email" required>
+                </p>
+                <p>
+					<input type="text" name="phone" placeholder="Téléphone" id="phone">
+                </p>
+
+				<p class="full">
+					<textarea name="message" rows="5" placeholder="Message" id="message"></textarea>
+				</p>
+
+				<p class="full">
+					<button type="submit">Envoyer</button>
+				</p>
+
+			</form>
+            </div>
         </div>
-        <div class="right-side-contact-2">
-            <label for="job">Fonction:</label>
-            <input type="text" id="fonction" name="fonction" required fonction>
-        </div>
-        <div class="right-side-contact-3">
-            <label for="job">Message:</label>
-            <input type="text" id="message" name="message" required message>
-        </div>
-        <div class="right-side-contact-4">
-            <button>Envoyer</button>
-        </div>
-    </div>
 </div>
 <!--subscribe to our newsletter-->
 <div class="newsletter">
-    <h3 style="color:#ffffff ;">Subscribe to our newsletter</h3>
-    <p style="color:#ffffff ;"> Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
-    <label for="emai">email:</label>
-    <input type="text" id="email" name="email" required enail>
-    <button style="color:#ffffff ;">S'inscrire</button>
+    <div class="subscribe">
+	<h3 class="subscribe__title">keep in touch</h3>
+	<p class="subscribe__copy">Inscrivez-vous pour rester au courant des nouvelles fraîches et des mises à jour passionnantes. Nous promettons de ne pas vous spammer !</p>
+	<div class="form">
+		<input type="email" class="form__email" placeholder="Entrez votre email ici !" />
+		<button class="form__button">S'inscrire</button>
+	</div>
+	<div class="notice">
+		<input type="checkbox">
+		<span class="notice__copy">J'accepte que mon adresse e-mail soit stockée et utilisée pour recevoir la newsletter.</span>
+	</div>
 </div>
-<hr style="color: #ffffff;">
+</div>
 <!--footer-->
 <div class="footer">
     <div class="Part-1">
         <img src="logo.svg" alt="white logo">
-        <p style="color:#ffffff ;">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
+        <p style="color:#ffffff ;">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi.</p>
     </div>
     <div class="Part-2">
         <h4 style="color:#ffffff ;">Solution</h4>
@@ -199,13 +257,9 @@
     </div>
 </div>
 <div class="copyright">
-        <div class="bloc-1-copyright">
         <p style="color:#ffffff ;">Metidice© 2022 All Rights Reserved</p>
-        </div>
-        <div class="bloc-2-co[yright">
         <p style="color: #ffffff;">Privacy policy</p>
         <p style="color: #ffffff;">Terms of us</p>
-        </div>
 </div>
     
 </div>
