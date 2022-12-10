@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
 
 
-body{
-    padding: 0;
-    margin: 0;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 0 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.loging-button{
+    
 }
 
 header {
@@ -23,19 +23,61 @@ header {
 display: flex;
 font-size: 10px;
 padding-left: 5%;
-padding-bottom: 10%;
+padding-bottom: 5%;
 }
 
 .metidice-search{
-padding-top: 3%;
+display: inline;
+padding-top: 5%;
+width: 40%;
+}
+.button-purpose-metidice{
+display: flex;
+padding-left: 10%;
+gap: 28px;
+font-family: roboto slab;
+}
+
+.Discover{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 10px 10px;
+   
+width: 180px;
+height: 50px;
+    
+background: #FFFFFF;
+border-radius: 6.95455px;
+box-shadow:  0px 7px 25px 0px rgba(255, 255, 255, 0.4);
+}
+.Watch-demo{
+background-color: none;
+border-color: none;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 10px 10px 10px;
+gap: 10px;
+width: 180px;
+height: 50px;
+border-radius: 6.95455px;
+    
+/* Inside auto layout */
+    
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .purpose-metidice{
 padding-top: 3%;
 align-content: flex-end;
 width: 60%;
-margin-left: 30%;
-margin-right: 20%;
+margin-left: 20%;
+margin-right: 10%;
 margin-top: 0%;
 font-size: 20px;
 font-style: color #ffffff;
@@ -99,7 +141,42 @@ color: #000000;
 
 } 
 
-.image-des-contenus-par-pays{
+.Values-in-numbers{
+display: flex;
+margin-left: 5%;
+margin-right: 10%;
+
+}
+
+.box-1-Values-in-numbers{
+width: 25%;
+padding: 2%;
+align-items: center;
+align-content: center;
+}
+
+.box-2-Values-in-numbers{
+width: 25%;
+padding: 2%;
+align-items: center;
+align-content: center;
+}
+
+.box-3-Values-in-numbers{
+width: 25%;
+padding: 2%;
+align-items: center;
+align-content: center;
+}
+
+.box-4-Values-in-numbers{
+width: 25%;
+padding: 2%;
+align-items: center;
+align-content: center;
+}
+
+.Image-per-countries{
 padding-left: 10%;
 padding-right: 10% ;
 align-content: center;
@@ -226,7 +303,6 @@ margin-right: 12%;
         color: #000000;
     }
     .pricing_section .row .card:nth-child(2) .plan_title{
-        background: ;
         box-shadow:  0px 7px 25px 0px rgba(38, 0, 255, 0.4);
     }
     .pricing_section .row .card:nth-child(3) .plan_title{
@@ -356,8 +432,10 @@ a:link,a:active,a:visited,a:hover{
 display:flex ;
 padding-left: 6%;
 padding-right: 6%;
-flex-wrap: wrap;
 flex-direction: row;
+align-items: center;
+justify-content: space-between;
+margin: auto;
 column-gap: 35px;
 margin-top: 10px;
 margin-bottom: 20px;
